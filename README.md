@@ -38,7 +38,7 @@ He adds the input and ouptut ports corresponding to the nodes.
 
 The developper must put a default value to the input or output ports like the server name because the biologists that will use groot2 to create their experiences have no clue of the meaning of this input. 
 
-When the node are added, they are now available to drag and drop in the groot behavior Tree
+When the nodes are added, they are now available to drag and drop in the groot behavior Tree
 
 ![03](https://github.com/berg0401/stage_t5/assets/72279192/b2da66df-8a3e-45ea-ae95-559545a9d0ab)
 
