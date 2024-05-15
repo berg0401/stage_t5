@@ -1,0 +1,25 @@
+<package format="2">
+  <name>behaviortree_ros</name>
+  <version>0.0.1</version>
+  <description>
+  This package provides usefull utilities on top of BehaviorTree.CPP.
+  </description>
+
+  <maintainer email="davide.faconti@eurecat.org">Davide Faconti</maintainer>
+
+  <license>MIT</license>
+
+  <author>Davide Faconti</author>
+
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>behaviortree_cpp</depend>
+  <depend>actionlib</depend>
+  <depend>actionlib_msgs</depend>
+
+  <exec_depend>message_runtime</exec_depend>
+  <depend>message_generation</depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
