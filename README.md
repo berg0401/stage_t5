@@ -42,7 +42,7 @@ When the nodes are added, they are now available to drag and drop in the groot b
 
 ![03](https://github.com/berg0401/stage_t5/assets/72279192/b2da66df-8a3e-45ea-ae95-559545a9d0ab)
 
-## Steps that required to create a biological expirement from Groot2
+## Steps required to create a biological expirement from Groot2 by a non-developper
 To demonstrate the power or behaviorTree quickly, the service and the action acccomplished by the test_bt.cpp file has nothing to do with biology. It will add two inputs as a service and return the fibonacci sequence as an action. If a biologist wanted to run this expirement, he would have to follow these steps.
 
 He can drag and drop the leaf nodes that he needs :
