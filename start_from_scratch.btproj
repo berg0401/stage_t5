@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" project_name="Project">
+    <include path="untitled_1.xml"/>
+    <!-- Description of Node Models (used by Groot) -->
+    <TreeNodesModel>
+        <Action ID="AddTwoInts" editable="true">
+            <input_port name="service_name" default="add_two_ints"/>
+            <input_port name="timeout"/>
+            <inout_port name="first_int"/>
+            <input_port name="second_int"/>
+            <output_port name="sum" default="{add_two_result}"/>
+        </Action>
+        <Action ID="Fibonacci" editable="true">
+            <input_port name="order"/>
+            <input_port name="server_name" default="fibonacci"/>
+            <input_port name="timeout"/>
+            <output_port name="result" default="{fibonacci_result}"/>
+        </Action>
+        <Condition ID="IsDoorClosed" editable="true"/>
+        <Action ID="OpenDoor" editable="true"/>
+        <Action ID="PassThroughDoor" editable="true"/>
+        <Action ID="PickLock" editable="true"/>
+        <Action ID="PrintValue" editable="true">
+            <input_port name="message" default="{add_two_result}"/>
+        </Action>
+        <Action ID="SmashDoor" editable="true"/>
+    </TreeNodesModel>
+</root>

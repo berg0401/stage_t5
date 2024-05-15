@@ -196,7 +196,7 @@ int main(int argc, char **argv)
   
   std::string xml_models = BT::writeTreeNodesModelXML(factory);
   
-  factory.registerBehaviorTreeFromFile("/home/berg0401/action_server_test.xml");
+  factory.registerBehaviorTreeFromFile("/home/berg0401/catkin_ws/src/BehaviorTree.ROS-master/action_server_test.xml");
   
   auto tree = factory.createTree("action_server_test");
   
