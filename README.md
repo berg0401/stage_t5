@@ -1,4 +1,4 @@
-![04](https://github.com/berg0401/stage_t5/assets/72279192/df4ca3d9-d4e1-4acb-8a3c-42b18c3ba116)# BehaviorTree.ROS
+# BehaviorTree.ROS
 
 [BehaviorTree.CPP](https://github.com/BehaviorTree/BehaviorTree.CPP) is a __middleware independent__ framework 
 to develop Behavior Trees in C++.
