@@ -17,7 +17,7 @@ Currently, two wrappers are provided:
 - [RosActionNode](include/behaviortree_ros/bt_action_node.h) that, similarly, is a wrapper around
   [actionlib::SimpleActionClient](http://wiki.ros.org/actionlib).
 # How to run an action and a service with BehaviorTree.ROS and monitor it on Groot2
-The action that is ran is the default test_bt that is given by the behaviorTree.ROS library. It runs the AddTwoInts service and the Fibonacci sequence action. The intern modified the test_bt.cpp file in "/test" to make it more visible on Groot2 by slowing down the the tasks. He also included the groot2 publisher and the xml parsing files from the behaviorTree.CPP library. Theses helped him to publish the code on the channel that Groot2 monitors. 
+The action that is ran is the default test_bt that is given by the behaviorTree.ROS library. It runs the AddTwoInts service and the Fibonacci sequence action. The intern modified the test_bt.cpp file in "/test" to make it more visible on Groot2 by slowing down the the tasks. He also included the groot2 publisher and the xml parsing files from the behaviorTree.CPP library. Theses helped him to publish the code on the channel that Groot2 monitors. He modified also the test_server.launch to launc the server and the client with one command.
 
 The intern proved that you can start an xml file from groot2 and make it easily compatible with the test_bt.cpp example. 
 
