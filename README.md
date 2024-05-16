@@ -87,6 +87,12 @@ He can then see the flow of the experiment threw a behavior three :
 ![11](https://github.com/berg0401/stage_t5/assets/72279192/eff500cf-0fa9-48c5-aa9d-be1423523ddd)
 
 
+## Other test
+
+Another test has been programmed by the intern to mimic a robot grabbing a piece. You can launch it with the "roslaunch behaviortree_ros test_move_robot.launch" command. You can than connect to the 1667 port on groot2 and monitor the experience. The experience is a ros action named move_robot and a async behaviorTree actionNode named GrabPiece. 
+
+![image](https://github.com/berg0401/stage_t5/assets/72279192/d38b47b8-d001-4f79-b0e2-a26e3fec90a3)
+
 
 
 
