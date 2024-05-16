@@ -34,7 +34,7 @@ add_service_files(
 
 add_action_files(
    DIRECTORY action
-   FILES     Fibonacci.action
+   FILES     Fibonacci.action move_robot.action
 )
 
 generate_messages(
@@ -63,12 +63,19 @@ include_directories( include ${catkin_INCLUDE_DIRS})
 # TESTS
 
 add_executable(test_bt test/test_bt.cpp)
+add_executable(test_move_robot test/test_move_robot.cpp)
 add_dependencies(test_bt ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(test_move_robot ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(test_bt ${catkin_LIBRARIES} )
+target_link_libraries(test_move_robot ${catkin_LIBRARIES} )
+
 
 add_executable(test_server test/test_server.cpp)
+add_executable(test_move_robot_server test/test_move_robot_server.cpp)
+add_dependencies(test_move_robot_server ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 add_dependencies(test_server ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(test_server ${catkin_LIBRARIES} )
+target_link_libraries(test_move_robot_server ${catkin_LIBRARIES} )
 
 ######################################################
 # INSTALL
